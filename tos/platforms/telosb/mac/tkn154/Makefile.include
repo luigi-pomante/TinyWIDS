@@ -1,0 +1,10 @@
+ifdef TKN154_PIERCEBOARD
+CFLAGS += -I$(TOSDIR)/platforms/telosb/mac/tkn154/timer/pierceboard
+endif
+
+CFLAGS += -I$(TOSDIR)/platforms/telosb/mac/tkn154 \
+	-I$(TOSDIR)/platforms/telosb/mac/tkn154/timer \
+	-I$(TOSDIR)/chips/cc2420_tkn154
+
+#icer 30nov2016
+PFLAGS += -I$(TOSDIR)/lib/printf/

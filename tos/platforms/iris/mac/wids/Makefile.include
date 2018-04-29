@@ -1,0 +1,4 @@
+CFLAGS += -I$(TOSDIR)/platforms/iris/mac/wids \
+	-I$(TOSDIR)/chips/rf230_tkn154
+
+include $(TOSDIR)/lib/mac/tkn154/Makefile.include

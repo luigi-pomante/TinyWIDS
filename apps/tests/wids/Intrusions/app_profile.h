@@ -1,0 +1,12 @@
+#ifndef __APP_PROFILE_H
+#define __APP_PROFILE_H
+
+enum {
+  RADIO_CHANNEL = 16,
+  PAN_ID = 0x1238,
+  COORDINATOR_ADDRESS = 0x9182,
+  BEACON_ORDER = 6,
+  SUPERFRAME_ORDER = 6,
+};
+
+#endif
